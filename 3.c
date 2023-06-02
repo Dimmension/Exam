@@ -8,7 +8,7 @@ int main()
     scanf("%d", &n);
     while (n != 0){
         if (n%10==3) cnt++;
-        scanf("%n", &n);
+        scanf("%d", &n);
     }
     printf("%d\n", cnt);
     return 0;
